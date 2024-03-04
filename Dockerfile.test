@@ -8,8 +8,6 @@ RUN npm i
 
 ENV PORT=5000
 
-ENV environment=dev
+ENV environment=test
 
-EXPOSE $PORT
-
-CMD [ "npm", "run", "server" ]
+CMD [ "npm", "run", "test" ]
