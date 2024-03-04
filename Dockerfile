@@ -1,4 +1,4 @@
-FROM nodejs:slim
+FROM node:slim
 
 WORKDIR /
 
